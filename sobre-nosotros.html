@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link al css -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link Libreria animate.css / CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Link Libreria michalsnik.github.io / CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Sobre Nosotros - JMD Producciones</title>
 </head>
@@ -14,10 +18,10 @@
     <nav>
       <!-- logo en el nav -->
       <a href="index.html">
-        <img src="images/jmdc-logo (FFFFFF).ico" alt="logo" class="logo-nav">
+        <img src="images/jmdc-logo (FFFFFF).ico" alt="logo" class="logo-nav animate__animated animate__fadeInLeft">
       </a>
       <!-- lista nav -->
-      <ul class="lista-nav">
+      <ul class="lista-nav animate__animated animate__fadeInDown">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nuestros-servicios.html">Nuestros Servicios</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -31,20 +35,20 @@
   <main>
 
     <section>
-      <h1>Sobre Nosotros</h1>
+      <h1 class="animate__animated animate__pulse">Sobre Nosotros</h1>
       <img src="images/pexels-fauxels-3184325.jpg" alt="rquipo" class="img-port">
     </section>
     
     <section class="seccion2-sobrenosotros">
       <div class="titulo-parrafo1">
-        <h2>JMDC Producciones</h2>
-        <p>
+        <h2 data-aos="fade-right">JMDC Producciones</h2>
+        <p data-aos="fade-right">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea delectus iure quam ipsa omnis! Ipsam veniam quasi
           illum dicta qui architecto deserunt possimus. Cumque voluptatibus iure cupiditate quasi excepturi incidunt? Lorem
           ipsum dolor sit, amet consectetur adipisicing elit.
         </p>
       </div>
-      <img src="images/jmdc-logo (FFFFFF).png" alt="logo">
+      <img src="images/jmdc-logo (FFFFFF).png" alt="logo" data-aos="fade-left">
     </section>
     
     <section class="seccion3-sobrenosotros">
@@ -52,10 +56,10 @@
       <h2>Integrantes</h2>
 
       <ul class="img-integrantes">
-        <li><img src="images/woman.png" alt="avatar"></li>
-        <li><img src="images/gamer.png" alt="avatar"></li>
-        <li><img src="images/beard.png" alt="avatar"></li>
-        <li><img src="images/man.png" alt="avatar"></li>
+        <li data-aos="flip-right"><img src="images/woman.png" alt="avatar"></li>
+        <li data-aos="flip-right"><img src="images/gamer.png" alt="avatar"></li>
+        <li data-aos="flip-right"><img src="images/beard.png" alt="avatar"></li>
+        <li data-aos="flip-right"><img src="images/man.png" alt="avatar"></li>
       </ul>
 
       <ul class="nombres-integrantes">
@@ -88,5 +92,11 @@
     <h4>2022. JMD PRODUCCIONES. TODOS LOS DERECHOS RESERVADOS. </h4>
 
   </footer>
+
+  <!-- Script JS para animación -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link al css -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link Libreria animate.css / CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Link Libreria michalsnik.github.io / CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Portfolio - JMD Producciones</title>
 </head>
@@ -14,10 +18,10 @@
     <nav>
       <!-- logo en el nav -->
       <a href="index.html">
-        <img src="images/jmdc-logo (FFFFFF).ico" alt="logo" class="logo-nav">
+        <img src="images/jmdc-logo (FFFFFF).ico" alt="logo" class="logo-nav animate__animated animate__fadeInLeft">
       </a>
       <!-- lista nav -->
-      <ul class="lista-nav">
+      <ul class="lista-nav animate__animated animate__fadeInDown">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nuestros-servicios.html">Nuestros Servicios</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -33,36 +37,46 @@
     <section>
 
       <!-- imagen de portada -->
-      <h1>Portfolio</h1>
+      <h1 class="animate__animated animate__pulse">Portfolio</h1>
       <img src="images/pexels-palu-malerba-2516401.jpg" alt="foto-paisaje" class="img-port">
 
     </section>
-
+    
     <section class="seccion2-portfolio">
       <div class="txt-iframe-portfolio">
         <div class="txt-portfolio">
           <h3>Casamiento de Nancy y Rolando</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum, voluptate similique dolores sit provident qui vero aut expedita doloremque consequuntur mollitia iste, quam quas veniam? Officia repudiandae ratione veritatis?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum, voluptate similique dolores sit
+            provident qui vero aut expedita doloremque consequuntur mollitia iste, quam quas veniam? Officia repudiandae
+            ratione veritatis?</p>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen data-aos="fade-up-left"></iframe>
       </div>
-
+    
       <div class="txt-iframe-portfolio">
-        <div class="txt-portfolio">      
+        <div class="txt-portfolio">
           <h3>Fiesta de Fin de Año de Borax Argentina</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse magni temporibus vel enim culpa quisquam expedita tenetur facilis aliquam perferendis qui molestiae, illo accusantium dignissimos soluta maxime, nisi, iusto commodi!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse magni temporibus vel enim culpa quisquam
+            expedita tenetur facilis aliquam perferendis qui molestiae, illo accusantium dignissimos soluta maxime, nisi,
+            iusto commodi!</p>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen data-aos="fade-up-left"></iframe>
       </div>
-
+    
       <div class="txt-iframe-portfolio">
-        <div class="txt-portfolio">   
+        <div class="txt-portfolio">
           <h3>Sesión de Fotos para la promo del Colegio 11 de Septiembre</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed pariatur unde aspernatur, laborum illo explicabo mollitia id enim similique quia molestias omnis ipsa exercitationem soluta non suscipit iure laudantium.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed pariatur unde aspernatur, laborum illo
+            explicabo mollitia id enim similique quia molestias omnis ipsa exercitationem soluta non suscipit iure
+            laudantium.</p>
         </div>
-        <img src="images/pexels-pavel-danilyuk-7944240.jpg" alt="graduacion">   
+        <img src="images/pexels-pavel-danilyuk-7944240.jpg" alt="graduacion" data-aos="fade-up-left">
       </div>
-
+    
     </section>
 
   </main>
@@ -79,5 +93,11 @@
     <h4>2022. JMD PRODUCCIONES. TODOS LOS DERECHOS RESERVADOS. </h4>
 
   </footer>
+
+  <!-- Script JS para animación -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
