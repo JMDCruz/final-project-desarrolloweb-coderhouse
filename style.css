@@ -1,0 +1,428 @@
+* {
+    margin:0;
+    padding:0;
+}
+html {
+    font-size: 62.5%; /* 62.5% = 10px */
+}
+
+/* tipografia */
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Bold.ttf);
+    font-weight: 700;
+}
+/* tipografia fin */
+
+/* header */
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+
+    background-color: #353535;
+    height: 14rem;
+}
+
+.logo-nav{
+    /* border: solid 1px white; */
+    height: 12rem;
+
+    margin-left: 8rem;
+
+}
+
+.lista-nav{
+    /* border: solid 1px white; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-left: 7rem;
+
+    width: 140rem;
+    text-align: center;
+    font-size: 2rem; /* 15px */
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    color: white;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+/* header fin */
+
+/* h1 h2 h3 h4 */
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    
+    color: #FFFFFF;
+}
+h4{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* h1 h2 h3 h4 fin*/
+
+/* footer */
+footer{
+    padding-top: 2rem;
+    background-color: #D9D9D9;
+    /* height: 9rem; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.iconos-redes{
+    /* border: solid 1px white; */
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 1rem ;
+}
+
+.iconos-redes img{
+    width: 3rem;
+}
+
+footer h4{
+    /* border: solid 1px white; */
+    margin-top: 0.5rem;
+    margin-bottom: 2rem
+}
+
+/* footer fin*/
+
+main{
+    background-color: #284B63;
+}
+
+/* index */
+
+.seccion1-index{
+
+    /* border: solid 1px white; */
+    display: flex;
+    flex-direction: column;
+
+    /* height: 50rem; */
+}
+
+.texto-imagen{
+
+    display: none;
+
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font: weight 9px;
+
+    position:relative;
+    bottom: 30rem;
+}
+
+.img-filmacion{
+
+    width: 100%;
+}
+
+.seccion2-index{
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 35rem;
+
+    /* padding-top: 6rem; */
+}
+
+.titulo-parrafo1{
+    width: 70rem;
+
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+
+    /* margin-left: 8rem; */
+
+}
+
+.img-lente{
+    border: solid 5px white;
+    width: 50rem;
+
+    /* margin-left: 10rem; */
+}
+
+/* index fin */
+
+/* Nuestros Serivicios */
+
+.seccion1-nuestros-servicios{
+    /* border: solid 1px white; */
+    height: 83rem;
+}
+
+.imagenes-textos-nuestroservicios{
+    /* border: solid 1px white; */
+    display: flex;
+}
+
+.txt-nuestroservicios{
+    /* border: solid 1px white; */
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.titulo-parrafo2{
+    /* border: solid 1px white; */
+    height: 35rem;
+    width: 50rem;
+
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+    
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+.img-nuestroservicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-nuestroservicios img{
+    height: 35rem;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+}
+
+
+.seccion2-nuestros-servicios {
+    /* border: solid 1px white; */
+    height: 34rem;
+}
+
+.lista-img-servicios{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 1rem;
+}
+
+.lista-img-servicios img{
+    width: 30rem;
+}
+
+.lista-h3-servicios{   
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;   
+}
+
+.lista-h3-servicios h3{   
+    width: 30rem;
+    text-align: center;
+}
+
+
+.lista-p-servicios{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+
+    color: #FFFFFF;
+
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-p-servicios p{
+    text-align: center;
+    width: 30rem;
+}
+
+/* Nuestros Serivicios fin*/
+
+/* Portfolio */
+
+.img-port{
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 2rem;
+}
+
+.txt-iframe-portfolio{
+    height: 33rem;
+
+    display: flex;
+    justify-content:space-around;
+}
+
+.txt-portfolio{
+    width: 70rem;
+
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+}
+
+.txt-iframe-portfolio img{
+    height: 315px;
+}
+
+/* Portfolio fin */
+
+/* Sobre Nosotros */
+
+.seccion2-sobrenosotros{
+    height: 35rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion2-sobrenosotros img{
+    width: 60rem;
+}
+
+.seccion3-sobrenosotros h2{
+    text-align: center;
+    font-size: 4rem;
+
+    padding-bottom: 2rem;
+}
+
+.img-integrantes img{
+    width: 30rem;
+}
+
+.img-integrantes{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 1rem;
+}
+
+.nombres-integrantes{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font: weight 9px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 1rem;
+}
+
+.nombres-integrantes li{
+    text-align: center;
+    width: 30rem;
+}
+
+.funciones-integrantes{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 2rem;
+}
+
+.funciones-integrantes li{
+    text-align: center;
+    width: 30rem;
+}
+
+/* Sobre Nosotros fin*/
+
+/* Contacto */
+
+.preguntas{
+    padding-bottom: 2rem;
+    margin-left: 5%;
+
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+    list-style-type: none;
+}
+
+.preguntas li{
+    padding-bottom: 2rem;
+}
+
+/* Contacto fin*/
