@@ -261,15 +261,7 @@ main{
 /* -------------------------------------------------------- SOBRE NOSOTROS --------------------------------------------------------*/
 
 .seccion2-sobrenosotros{
-    height: 35rem;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.seccion2-sobrenosotros img{
-    width: 60rem;
+    padding-bottom: 2rem;
 }
 
 .seccion3-sobrenosotros h2{
