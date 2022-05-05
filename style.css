@@ -235,27 +235,24 @@ main{
     padding-bottom: 2rem;
 }
 
-.txt-iframe-portfolio{
-    height: 33rem;
-
-    display: flex;
-    justify-content:space-around;
-}
-
-.txt-portfolio{
-    width: 70rem;
-
+.seccion2-portfolio{
     color: #FFFFFF;
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font: weight 9px;
+
+    padding-bottom: 2rem;
 }
 
-.txt-iframe-portfolio img{
-    height: 315px;
+.card-portfolio iframe{
+    height:315px;
 }
 
+.card-portfolio{
+    width: 90%;
+    margin-left: 5%;
+}
 /* -------------------------------------------------------- PORTFOLIO FIN --------------------------------------------------------*/
 
 /* -------------------------------------------------------- SOBRE NOSOTROS --------------------------------------------------------*/
@@ -271,54 +268,8 @@ main{
     padding-bottom: 2rem;
 }
 
-.img-integrantes img{
-    width: 30rem;
-}
-
-.img-integrantes{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-
-    padding-bottom: 1rem;
-}
-
-.nombres-integrantes{
-    list-style-type: none;
-    color: #FFFFFF;
-    font-size: 2rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font: weight 9px;
-
-    display: flex;
-    justify-content: space-around;
-
-    padding-top: 1rem;
-}
-
-.nombres-integrantes li{
-    text-align: center;
-    width: 30rem;
-}
-
-.funciones-integrantes{
-    list-style-type: none;
-    color: #FFFFFF;
-    font-size: 2rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font: weight 9px;
-
-    display: flex;
-    justify-content: space-around;
-
-    padding-bottom: 2rem;
-}
-
-.funciones-integrantes li{
-    text-align: center;
-    width: 30rem;
+.seccion3-sobrenosotros .row{
+    width: 88%;
 }
 
 /* -------------------------------------------------------- SOBRE NOSOTROS FIN --------------------------------------------------------*/
@@ -326,8 +277,9 @@ main{
 /* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
 
 .preguntas{
-    padding-bottom: 2rem;
-    margin-left: 5%;
+    display: flex;
+
+    justify-content: space-around;
 
     color: #FFFFFF;
     font-size: 2rem;
@@ -338,6 +290,19 @@ main{
 }
 
 .preguntas li{
+    padding-bottom: 2rem;
+}
+
+.seccion2-contacto{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font: weight 9px;
+    list-style-type: none;
+}
+
+.formulario{
     padding-bottom: 2rem;
 }
 
