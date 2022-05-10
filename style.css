@@ -32,6 +32,12 @@ nav{
 
 .logo-nav{
     height: 8rem;
+    /* border: solid 1px white; */
+}
+
+.navbar-brand{
+    padding-left: 5rem;
+    /* border: solid 1px white; */
 }
 
 .lista-nav{
@@ -95,7 +101,6 @@ h5{
 footer{
     padding-top: 2rem;
     background-color: #D9D9D9;
-    /* height: 9rem; */
 
     display: flex;
     flex-direction: column;
@@ -103,12 +108,11 @@ footer{
 }
 
 .iconos-redes{
-    /* border: solid 1px white; */
     width: 30rem;
     display: flex;
     justify-content: space-between;
 
-    margin-bottom: 1rem ;
+    margin-bottom: 0.7rem ;
 }
 
 .iconos-redes img{
@@ -116,9 +120,8 @@ footer{
 }
 
 footer h4{
-    /* border: solid 1px white; */
     margin-top: 0.5rem;
-    margin-bottom: 2rem
+    margin-bottom: 1.8rem;
 }
 
 /* -------------------------------------------------------- FOOTER FIN --------------------------------------------------------*/
@@ -129,14 +132,7 @@ main{
 
 /* -------------------------------------------------------- INDEX --------------------------------------------------------*/
 
-.seccion1-index{
-    display: flex;
-    flex-direction: column;
-
-}
-
 .img-filmacion{
-
     width: 100%;
 }
 
@@ -151,7 +147,7 @@ main{
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font: weight 9px;
+    font: weight;
 }
 
 .img-lente{
@@ -162,42 +158,21 @@ main{
 /* -------------------------------------------------------- INDEX FIN --------------------------------------------------------*/
 
 /* -------------------------------------------------------- NUESTROS SERVICIOS --------------------------------------------------------*/
-
-.grid{
-    color: white;
-    font-size: 3rem;
+.grid-container{
+    margin-left: 2%;
+    width: 96%;
 }
 
 .grid div{
     margin-bottom: 3rem;
-    /* margin-left: 2rem; */
 }
 
 .grid p{
+    color: white;
     font-size: 2.5rem;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font: weight;
-}
-
-.grid-container{
-    margin-left: 5%;
-    width: 90%;
-}
-
-.titulo-parrafo2{
-    /* border: solid 1px white; */
-    height: 35rem;
-    width: 50rem;
-
-    color: #FFFFFF;
-    font-size: 2.5rem;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font: weight 9px;
-    
-    margin-left: 5rem;
-    margin-bottom: 3rem;
 }
 
 .seccion2-nuestros-servicios{
@@ -221,6 +196,7 @@ main{
 .lista-p-servicios{
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    font: weight;
     font-size: 2rem;
     text-align: center;
 }
@@ -240,7 +216,7 @@ main{
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font: weight 9px;
+    font: weight;
 
     padding-bottom: 2rem;
 }
@@ -285,7 +261,7 @@ main{
     font-size: 2rem;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font: weight 9px;
+    font: weight;
     list-style-type: none;
 }
 
@@ -298,7 +274,7 @@ main{
     font-size: 1.5rem;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font: weight 9px;
+    font: weight;
     list-style-type: none;
 }
 
@@ -307,3 +283,149 @@ main{
 }
 
 /* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/
+
+
+/* -------------------------------------------------------- MEDIA QUERIES --------------------------------------------------------*/
+
+/* ------------------------------- Mobil -------------------------------*/
+@media only screen and (max-width:767px) {
+    /* ------------------------ INDEX */
+
+    .img-filmacion{
+        display: none;
+    }
+
+    .img-filmacion-2{
+        width: 100%;
+    }
+    .titulo-parrafo1{
+        font-size: 1.8rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .img-lente{
+        border: solid 3px white;
+        width: 35rem;
+    }
+
+    h2{
+        font-size: 3rem;
+        margin: none;
+    
+        color: #FFFFFF;
+    }
+    /* ------------------------ INDEX FIN */
+
+    /* ------------------------ NUESTROS SERVICIOS */
+    
+    h1{
+        font-size: 3.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .grid div{
+        margin-bottom: 2.2rem;
+    }
+    
+    .grid p{
+        font-size: 1.7rem;
+    }
+    
+    .seccion2-nuestros-servicios .row{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .card h5{
+        font-size: 1.9rem;
+    }
+    
+    .lista-p-servicios{
+        font-size: 1.5rem;
+    }
+
+    /* ------------------------ NUESTROS SERVICIOS FIN */
+
+    /* ------------------------ FOOTER */
+
+    .iconos-redes{
+        width: 20rem;
+    }
+
+    .iconos-redes img{
+        width: 2.8rem;
+    }
+
+    footer h4{
+        font-size: 1rem;
+    }
+
+    /* ------------------------ FOOTER FIN */
+
+
+    
+}
+/* ------------------------------- Tablet -------------------------------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    /* ------------------------ INDEX */
+    .img-filmacion-2{
+        display: none;
+    }
+    .titulo-parrafo1{
+        font-size: 2.4rem;
+    }
+
+    .img-lente{
+        border: solid 4px white;
+        width: 40rem;
+    }
+
+    h2{
+        font-size: 3.4rem;
+        margin: none;
+    
+        color: #FFFFFF;
+    }
+    /* ------------------------ INDEX FIN */
+
+    /* ------------------------ NUESTROS SERVICIOS */
+    
+    .grid div{
+        margin-bottom: 2.6rem;
+    }
+    
+    .grid p{
+        font-size: 2.1rem;
+    }
+    
+    .seccion2-nuestros-servicios .row{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .card h5{
+        font-size: 2rem;
+    }
+    
+    .lista-p-servicios{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+/* ------------------------------- Desktop -------------------------------*/
+@media only screen and (min-width:992px){
+    /* ------------------------ INDEX */
+    .img-filmacion-2{
+        display: none;
+    }
+
+    .grid p{
+        margin-left: 2rem;
+    }
+    .grid h2{
+        margin-left: 2rem;
+    }
+    /* ------------------------ INDEX FIN */
+}
