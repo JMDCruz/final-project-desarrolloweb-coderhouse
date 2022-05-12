@@ -1,0 +1,27 @@
+/* -------------------------------------------------------- FOOTER --------------------------------------------------------*/
+
+footer{
+    padding-top: 2rem;
+    background-color: nth($colores,4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .iconos-redes{
+        width: 30rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.7rem ;
+
+        img{
+            width: 3rem;
+        }
+        h4{
+            margin-top: 0.5rem;
+            margin-bottom: 1.8rem;
+        }
+    }
+}
+
+/* -------------------------------------------------------- FOOTER FIN --------------------------------------------------------*/

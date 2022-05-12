@@ -1,0 +1,38 @@
+@import '../base/listas';
+
+/* -------------------------------------------------------- HEADER --------------------------------------------------------*/
+
+header{
+    nav{
+        background-color: nth($colores,3);
+
+        .container-fluid{
+
+            .navbar-brand{
+                padding-left: 5rem;
+
+                .logo-nav{
+                    height: 8rem;
+                    
+                }
+            }
+
+            #navbarDark{
+                
+                .lista-nav{
+                    font-size: 2rem;
+                    list-style-type: none;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400;
+                    color: nth($colores,1);
+
+                    .nav-link{
+                        margin-right: 5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* -------------------------------------------------------- HEADER FIN --------------------------------------------------------*/

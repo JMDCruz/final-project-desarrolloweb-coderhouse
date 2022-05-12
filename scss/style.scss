@@ -1,0 +1,40 @@
+@import '../scss/base/listas';
+@import '../scss/base/estilosGenerales';
+@import '../scss/base/variables';
+@import '../scss/components/header';
+@import '../scss/components/footer';
+
+main{
+    background-color: nth($colores,2);
+
+    .seccion1-index{
+
+        .img-filmacion{
+            width: 100%;
+
+        }
+    }
+    .seccion2-index{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .row{
+
+            .titulo-parrafo1{
+                color: nth($colores,1);
+                font-size: 2.8rem;
+                text-align: center;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                font: weight;
+            }
+            .col-lg-6{
+
+                .img-lente{
+                    border: solid 5px nth($colores,1);
+                    width: 50rem;
+                }
+            }
+        }
+    }
+}
