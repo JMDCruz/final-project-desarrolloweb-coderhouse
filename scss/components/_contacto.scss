@@ -1,0 +1,33 @@
+/* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
+
+main{
+    .preguntas{
+        display: flex;
+        justify-content: space-around;
+        color: nth($colores, 1);
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font: weight;
+        list-style-type: none;
+
+        li{
+            padding-bottom: 2rem;
+        }
+    }
+
+    .seccion2-contacto{
+        color: nth($colores, 1);
+        font-size: 1.5rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font: weight;
+        list-style-type: none;
+
+        .formulario{
+            padding-bottom: 2rem;
+        }
+    }
+}
+
+/* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/

@@ -1,0 +1,37 @@
+/* -------------------------------------------------------- PORTFOLIO --------------------------------------------------------*/
+
+main {
+    section {
+        .img-port {
+            width: 90%;
+            margin-left: 5%;
+            padding-bottom: 2rem;
+        }
+    }
+
+    .seccion2-portfolio{
+        color: nth($colores, 1);
+        font-size: 2rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font: weight;
+        padding-bottom: 2rem;
+
+        .card-portfolio{
+            background-color: nth($colores, 2);
+            border: none;
+            width: 90%;
+            margin-left: 5%;
+
+            .row{
+                .col-md-4{
+                    iframe{
+                        height:315px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* -------------------------------------------------------- PORTFOLIO FIN --------------------------------------------------------*/

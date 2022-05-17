@@ -1,0 +1,204 @@
+/* -------------------------------------------------------- MEDIA QUERIE --------------------------------------------------------*/
+
+/* ------------------------------- Mobil -------------------------------*/
+@media only screen and (max-width:767px) {
+    /* ------------------------ INDEX */
+
+    main {
+        .seccion1-index {
+    
+            .img-filmacion {
+                display: none;
+            }
+            .img-filmacion-2 {
+                width: 100%;
+            }
+        }
+    
+        .seccion2-index {
+            .row {
+    
+                .titulo-parrafo1 {
+                    font-size: 1.8rem;
+                    margin: none;
+                    color: #FFFFFF;
+
+                    h1{
+                        font-size: 2.6rem;
+                    }
+                }
+
+                .col-lg-6 {
+                    .img-lente {
+                        border: solid 3px white;
+                        width: 35rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ------------------------ INDEX FIN */
+
+    /* ------------------------ NUESTROS SERVICIOS */
+
+    main {
+        .seccion1-nuestros-servicios {
+            h1{
+                font-size: 3.5rem;
+                padding-bottom: 1rem;
+            }
+            
+            .grid-container {
+                margin-left: 2%;
+                width: 96%;
+    
+                .grid {
+                    div {
+                        margin-bottom: 2.2rem;
+                    }
+                    p {
+                        font-size: 1.7rem;
+                    }
+    
+                }
+            }
+        }
+    
+        .seccion2-nuestros-servicios {
+            padding-bottom: 2rem;
+    
+            .row {
+                margin-left: 1rem;
+                margin-right: 1rem;
+    
+                .card {
+                    background-color: #284B63;
+                    border: none;
+    
+                    .card-body {
+                        h5 {
+                            font-size: 1.9rem;
+                        }
+                        p {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ------------------------ NUESTROS SERVICIOS FIN */
+
+    /* ------------------------ FOOTER */
+
+    footer{    
+        .iconos-redes{
+            width: 20rem;
+    
+            img{
+                width: 2.8rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    /* ------------------------ FOOTER FIN */
+
+
+    
+}
+/* ------------------------------- Tablet -------------------------------*/
+@media only screen and (min-width:768px) and (max-width:991px){
+    /* ------------------------ INDEX */
+
+    main {
+        .seccion1-index {
+            .img-filmacion-2 {
+                display: none;
+            }
+        }
+    
+        .seccion2-index {
+            .row {
+    
+                .titulo-parrafo1 {
+                    font-size: 2.4rem;
+
+                    h1{
+                        font-size: 4rem;
+                    }
+                }
+                .col-lg-6 {
+                    .img-lente {
+                        border: solid 4px white;
+                        width: 40rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* ------------------------ INDEX FIN */
+
+    /* ------------------------ NUESTROS SERVICIOS */
+
+    main {
+        .seccion1-nuestros-servicios {            
+            .grid-container {
+    
+                .grid {
+                    div {
+                        margin-bottom: 2.6rem;
+                    }
+                    p {
+                        font-size: 2.1rem;
+                    }
+                }
+            }
+        }
+    
+        .seccion2-nuestros-servicios {
+            padding-bottom: 2rem;
+    
+            .row {
+                margin-left: 1rem;
+                margin-right: 1rem;
+    
+                .card {
+                    background-color: #284B63;
+                    border: none;
+    
+                    .card-body {
+                        h5 {
+                            font-size: 2rem;
+                        }
+                        p {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ------------------------------- Desktop -------------------------------*/
+@media only screen and (min-width:992px){
+    /* ------------------------ INDEX */
+
+    main {
+        .seccion1-index {
+            .img-filmacion-2 {
+                display: none;
+            }
+        }
+    }
+
+    /* ------------------------ INDEX FIN */
+}
+
+/* -------------------------------------------------------- MEDIA QUERIE FIN --------------------------------------------------------*/

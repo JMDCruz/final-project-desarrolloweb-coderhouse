@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* Listas */
-/* Listas */
+/* -------------------------------------------------------- Listas --------------------------------------------------------*/
+/* -------------------------------------------------------- Listas --------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +69,7 @@ h5 {
 
 /* -------------------------------------------------------- HEADINGS FIN --------------------------------------------------------*/
 /* Variables */
-/* Listas */
+/* -------------------------------------------------------- Listas --------------------------------------------------------*/
 /* -------------------------------------------------------- HEADER --------------------------------------------------------*/
 header nav {
   background-color: #353535;
@@ -115,6 +115,7 @@ footer .iconos-redes h4 {
 }
 
 /* -------------------------------------------------------- FOOTER FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- INDEX --------------------------------------------------------*/
 main {
   background-color: #284B63;
 }
@@ -137,5 +138,262 @@ main .seccion2-index .row .col-lg-6 .img-lente {
   border: solid 5px #FFFFFF;
   width: 50rem;
 }
+
+/* -------------------------------------------------------- INDEX FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- NUESTROS SERVICIOS --------------------------------------------------------*/
+main .seccion1-nuestros-servicios .grid-container {
+  margin-left: 2%;
+  width: 96%;
+}
+main .seccion1-nuestros-servicios .grid-container .grid div {
+  margin-bottom: 3rem;
+}
+main .seccion1-nuestros-servicios .grid-container .grid p {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+}
+main .seccion2-nuestros-servicios {
+  padding-bottom: 2rem;
+}
+main .seccion2-nuestros-servicios .row {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+main .seccion2-nuestros-servicios .row .card {
+  background-color: #284B63;
+  border: none;
+}
+main .seccion2-nuestros-servicios .row .card .card-body h5 {
+  text-align: center;
+}
+main .seccion2-nuestros-servicios .row .card .card-body p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* -------------------------------------------------------- NUESTROS SERVICIOS FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- PORTFOLIO --------------------------------------------------------*/
+main section .img-port {
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 2rem;
+}
+main .seccion2-portfolio {
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+  padding-bottom: 2rem;
+}
+main .seccion2-portfolio .card-portfolio {
+  background-color: #284B63;
+  border: none;
+  width: 90%;
+  margin-left: 5%;
+}
+main .seccion2-portfolio .card-portfolio .row .col-md-4 iframe {
+  height: 315px;
+}
+
+/* -------------------------------------------------------- PORTFOLIO FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- SOBRE NOSOTROS --------------------------------------------------------*/
+main section .img-port {
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 2rem;
+}
+main .seccion2-sobrenosotros {
+  padding-bottom: 2rem;
+}
+main .seccion2-sobrenosotros .row .titulo-parrafo1 {
+  color: #FFFFFF;
+  font-size: 2.8rem;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+}
+main .seccion3-sobrenosotros h2 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+main .seccion3-sobrenosotros .row {
+  width: 88%;
+}
+main .seccion3-sobrenosotros .row .col-lg-3 .card {
+  background-color: #284B63;
+  border: none;
+}
+main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body h5 {
+  text-align: center;
+}
+main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* -------------------------------------------------------- SOBRE NOSOTROS FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
+main .preguntas {
+  display: flex;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+  list-style-type: none;
+}
+main .preguntas li {
+  padding-bottom: 2rem;
+}
+main .seccion2-contacto {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+  list-style-type: none;
+}
+main .seccion2-contacto .formulario {
+  padding-bottom: 2rem;
+}
+
+/* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- MEDIA QUERIE --------------------------------------------------------*/
+/* ------------------------------- Mobil -------------------------------*/
+@media only screen and (max-width: 767px) {
+  /* ------------------------ INDEX */
+  main .seccion1-index .img-filmacion {
+    display: none;
+  }
+  main .seccion1-index .img-filmacion-2 {
+    width: 100%;
+  }
+  main .seccion2-index .row .titulo-parrafo1 {
+    font-size: 1.8rem;
+    margin: none;
+    color: #FFFFFF;
+  }
+  main .seccion2-index .row .titulo-parrafo1 h1 {
+    font-size: 2.6rem;
+  }
+  main .seccion2-index .row .col-lg-6 .img-lente {
+    border: solid 3px white;
+    width: 35rem;
+  }
+
+  /* ------------------------ INDEX FIN */
+  /* ------------------------ NUESTROS SERVICIOS */
+  main .seccion1-nuestros-servicios h1 {
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+  main .seccion1-nuestros-servicios .grid-container {
+    margin-left: 2%;
+    width: 96%;
+  }
+  main .seccion1-nuestros-servicios .grid-container .grid div {
+    margin-bottom: 2.2rem;
+  }
+  main .seccion1-nuestros-servicios .grid-container .grid p {
+    font-size: 1.7rem;
+  }
+  main .seccion2-nuestros-servicios {
+    padding-bottom: 2rem;
+  }
+  main .seccion2-nuestros-servicios .row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  main .seccion2-nuestros-servicios .row .card {
+    background-color: #284B63;
+    border: none;
+  }
+  main .seccion2-nuestros-servicios .row .card .card-body h5 {
+    font-size: 1.9rem;
+  }
+  main .seccion2-nuestros-servicios .row .card .card-body p {
+    font-size: 1.5rem;
+  }
+
+  /* ------------------------ NUESTROS SERVICIOS FIN */
+  /* ------------------------ FOOTER */
+  footer .iconos-redes {
+    width: 20rem;
+  }
+  footer .iconos-redes img {
+    width: 2.8rem;
+  }
+  footer .iconos-redes h4 {
+    font-size: 1rem;
+  }
+
+  /* ------------------------ FOOTER FIN */
+}
+/* ------------------------------- Tablet -------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* ------------------------ INDEX */
+  main .seccion1-index .img-filmacion-2 {
+    display: none;
+  }
+  main .seccion2-index .row .titulo-parrafo1 {
+    font-size: 2.4rem;
+  }
+  main .seccion2-index .row .titulo-parrafo1 h1 {
+    font-size: 4rem;
+  }
+  main .seccion2-index .row .col-lg-6 .img-lente {
+    border: solid 4px white;
+    width: 40rem;
+  }
+
+  /* ------------------------ INDEX FIN */
+  /* ------------------------ NUESTROS SERVICIOS */
+  main .seccion1-nuestros-servicios .grid-container .grid div {
+    margin-bottom: 2.6rem;
+  }
+  main .seccion1-nuestros-servicios .grid-container .grid p {
+    font-size: 2.1rem;
+  }
+  main .seccion2-nuestros-servicios {
+    padding-bottom: 2rem;
+  }
+  main .seccion2-nuestros-servicios .row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  main .seccion2-nuestros-servicios .row .card {
+    background-color: #284B63;
+    border: none;
+  }
+  main .seccion2-nuestros-servicios .row .card .card-body h5 {
+    font-size: 2rem;
+  }
+  main .seccion2-nuestros-servicios .row .card .card-body p {
+    font-size: 1.6rem;
+  }
+}
+/* ------------------------------- Desktop -------------------------------*/
+@media only screen and (min-width: 992px) {
+  /* ------------------------ INDEX */
+  main .seccion1-index .img-filmacion-2 {
+    display: none;
+  }
+
+  /* ------------------------ INDEX FIN */
+}
+/* -------------------------------------------------------- MEDIA QUERIE FIN --------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
