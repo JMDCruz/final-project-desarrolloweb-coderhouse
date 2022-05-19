@@ -31,7 +31,7 @@ h2 {
 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin: none;
   color: #FFFFFF;
 }
@@ -40,13 +40,6 @@ h4 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  margin: none;
-}
-
-h5 {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 2.3rem;
   margin: none;
 }
 
@@ -170,7 +163,7 @@ main .seccion2-nuestros-servicios .row .card {
   background-color: #284B63;
   border: none;
 }
-main .seccion2-nuestros-servicios .row .card .card-body h5 {
+main .seccion2-nuestros-servicios .row .card .card-body h3 {
   text-align: center;
 }
 main .seccion2-nuestros-servicios .row .card .card-body p {
@@ -228,7 +221,7 @@ main .seccion3-sobrenosotros .row .col-lg-3 .card {
   background-color: #284B63;
   border: none;
 }
-main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body h5 {
+main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body h3 {
   text-align: center;
 }
 main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
