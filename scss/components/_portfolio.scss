@@ -3,25 +3,23 @@
 main {
     section {
         .img-port {
-            width: 90%;
-            margin-left: 5%;
+            @include portadas (90%, 5%);
             padding-bottom: 2rem;
         }
     }
 
     .seccion2-portfolio{
         color: nth($colores, 1);
-        font-size: 2rem;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        font: weight;
+        font-size: map-get($map: $fsize, $key: 3);
+        @extend %fuente-parrafo;
         padding-bottom: 2rem;
-
+        
         .card-portfolio{
             background-color: nth($colores, 2);
             border: none;
             width: 90%;
             margin-left: 5%;
+            padding-bottom: 1rem;
 
             .row{
                 .col-md-4{

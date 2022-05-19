@@ -5,10 +5,8 @@ main{
         display: flex;
         justify-content: space-around;
         color: nth($colores, 1);
-        font-size: 2rem;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        font: weight;
+        font-size: map-get($map: $fsize, $key: 3);
+        @extend %fuente-parrafo;
         list-style-type: none;
 
         li{
@@ -18,10 +16,8 @@ main{
 
     .seccion2-contacto{
         color: nth($colores, 1);
-        font-size: 1.5rem;
-        font-family: 'Lato', sans-serif;
-        font-weight: 300;
-        font: weight;
+        font-size: map-get($map: $fsize, $key: 3);
+        @extend %fuente-parrafo;
         list-style-type: none;
 
         .formulario{

@@ -1,0 +1,5 @@
+/* Mixin */
+@mixin portadas ($width, $margin) {
+    width: $width;
+    margin-left: $margin;
+}

@@ -3,8 +3,7 @@
 main{
     section {
         .img-port {
-            width: 90%;
-            margin-left: 5%;
+            @include portadas (90%, 5%);
             padding-bottom: 2rem;
         }
     }
@@ -15,11 +14,9 @@ main{
         .row{
             .titulo-parrafo1{
                 color: nth($colores, 1);
-                font-size: 2.8rem;
+                font-size: map-get($map: $fsize, $key: 2);
                 text-align: center;
-                font-family: 'Lato', sans-serif;
-                font-weight: 300;
-                font: weight;
+                @extend %fuente-parrafo;
             }
         }
     }
@@ -27,7 +24,7 @@ main{
     .seccion3-sobrenosotros{
         h2{
             text-align: center;
-            font-size: 4rem;
+            font-size: map-get($map: $fsize, $key: 1);
             padding-bottom: 2rem;
         }
         .row{
@@ -42,10 +39,8 @@ main{
                             text-align: center;
                         }
                         p {
-                            font-family: 'Lato', sans-serif;
-                            font-weight: 300;
-                            font: weight;
-                            font-size: 2rem;
+                            @extend %fuente-parrafo;
+                            font-size: map-get($map: $fsize, $key: 3);
                             text-align: center;
                         }
                     }

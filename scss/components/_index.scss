@@ -6,7 +6,7 @@ main {
     .seccion1-index {
 
         .img-filmacion {
-            width: 100%;
+            @include portadas (100%, 0);
 
         }
     }
@@ -19,11 +19,9 @@ main {
 
             .titulo-parrafo1 {
                 color: nth($colores, 1);
-                font-size: 2.8rem;
+                font-size: map-get($map: $fsize, $key: 2);
                 text-align: center;
-                font-family: 'Lato', sans-serif;
-                font-weight: 300;
-                font: weight;
+                @extend %fuente-parrafo;
             }
 
             .col-lg-6 {

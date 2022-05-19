@@ -12,10 +12,8 @@ main {
                 }
                 p {
                     color: nth($colores, 1);
-                    font-size: 2.5rem;
-                    font-family: 'Lato', sans-serif;
-                    font-weight: 300;
-                    font: weight;
+                    font-size: map-get($map: $fsize, $key: 2);
+                    @extend %fuente-parrafo;
                 }
             }
         }
@@ -37,10 +35,8 @@ main {
                         text-align: center;
                     }
                     p {
-                        font-family: 'Lato', sans-serif;
-                        font-weight: 300;
-                        font: weight;
-                        font-size: 2rem;
+                        @extend %fuente-parrafo;
+                        font-size: map-get($map: $fsize, $key: 3);
                         text-align: center;
                     }
                 }

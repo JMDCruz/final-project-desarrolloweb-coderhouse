@@ -10,23 +10,6 @@ html {
   font-size: 62.5%;
 }
 
-/* -------------------------------------------------------- TIPOGRAFÍA --------------------------------------------------------*/
-@font-face {
-  font-family: "Lato";
-  src: url(../fonts/Lato-Light.ttf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Lato";
-  src: url(../fonts/Lato-Regular.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Lato";
-  src: url(../fonts/Lato-Bold.ttf);
-  font-weight: 700;
-}
-/* -------------------------------------------------------- TIPOGRAFÍA FIN --------------------------------------------------------*/
 /* -------------------------------------------------------- HEADINGS --------------------------------------------------------*/
 h1 {
   font-family: "Lato", sans-serif;
@@ -68,7 +51,33 @@ h5 {
 }
 
 /* -------------------------------------------------------- HEADINGS FIN --------------------------------------------------------*/
+/* -------------------------------------------------------- TIPOGRAFÍA --------------------------------------------------------*/
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+}
+/* -------------------------------------------------------- TIPOGRAFÍA FIN --------------------------------------------------------*/
 /* Variables */
+/* Mapas */
+/* Mixin */
+/* Extends */
+main .seccion2-contacto, main .preguntas, main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p, main .seccion2-sobrenosotros .row .titulo-parrafo1, main .seccion2-portfolio, main .seccion2-nuestros-servicios .row .card .card-body p, main .seccion1-nuestros-servicios .grid-container .grid p, main .seccion2-index .row .titulo-parrafo1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font: weight;
+}
+
 /* -------------------------------------------------------- Listas --------------------------------------------------------*/
 /* -------------------------------------------------------- HEADER --------------------------------------------------------*/
 header nav {
@@ -121,6 +130,7 @@ main {
 }
 main .seccion1-index .img-filmacion {
   width: 100%;
+  margin-left: 0;
 }
 main .seccion2-index {
   padding-top: 2rem;
@@ -128,11 +138,8 @@ main .seccion2-index {
 }
 main .seccion2-index .row .titulo-parrafo1 {
   color: #FFFFFF;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
 }
 main .seccion2-index .row .col-lg-6 .img-lente {
   border: solid 5px #FFFFFF;
@@ -150,10 +157,7 @@ main .seccion1-nuestros-servicios .grid-container .grid div {
 }
 main .seccion1-nuestros-servicios .grid-container .grid p {
   color: #FFFFFF;
-  font-size: 2.5rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
+  font-size: 2.6rem;
 }
 main .seccion2-nuestros-servicios {
   padding-bottom: 2rem;
@@ -170,9 +174,6 @@ main .seccion2-nuestros-servicios .row .card .card-body h5 {
   text-align: center;
 }
 main .seccion2-nuestros-servicios .row .card .card-body p {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
   font-size: 2rem;
   text-align: center;
 }
@@ -187,9 +188,6 @@ main section .img-port {
 main .seccion2-portfolio {
   color: #FFFFFF;
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
   padding-bottom: 2rem;
 }
 main .seccion2-portfolio .card-portfolio {
@@ -197,6 +195,7 @@ main .seccion2-portfolio .card-portfolio {
   border: none;
   width: 90%;
   margin-left: 5%;
+  padding-bottom: 1rem;
 }
 main .seccion2-portfolio .card-portfolio .row .col-md-4 iframe {
   height: 315px;
@@ -214,11 +213,8 @@ main .seccion2-sobrenosotros {
 }
 main .seccion2-sobrenosotros .row .titulo-parrafo1 {
   color: #FFFFFF;
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   text-align: center;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
 }
 main .seccion3-sobrenosotros h2 {
   text-align: center;
@@ -236,9 +232,6 @@ main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body h5 {
   text-align: center;
 }
 main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
   font-size: 2rem;
   text-align: center;
 }
@@ -250,9 +243,6 @@ main .preguntas {
   justify-content: space-around;
   color: #FFFFFF;
   font-size: 2rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
   list-style-type: none;
 }
 main .preguntas li {
@@ -260,10 +250,7 @@ main .preguntas li {
 }
 main .seccion2-contacto {
   color: #FFFFFF;
-  font-size: 1.5rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font: weight;
+  font-size: 2rem;
   list-style-type: none;
 }
 main .seccion2-contacto .formulario {
