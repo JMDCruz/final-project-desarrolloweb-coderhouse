@@ -169,6 +169,10 @@ main .seccion1-nuestros-servicios .grid-container .grid p {
 main .seccion2-nuestros-servicios {
   padding-bottom: 2rem;
 }
+main .seccion2-nuestros-servicios h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 main .seccion2-nuestros-servicios .row {
   margin-left: 1rem;
   margin-right: 1rem;
