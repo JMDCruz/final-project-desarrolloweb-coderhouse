@@ -1,6 +1,6 @@
 /* -------------------------------------------------------- SOBRE NOSOTROS --------------------------------------------------------*/
 
-main{
+main {
     section {
         .img-port {
             @include portadas (90%, 5%);
@@ -8,11 +8,11 @@ main{
         }
     }
 
-    .seccion2-sobrenosotros{
+    .seccion2-sobrenosotros {
         padding-bottom: 2rem;
 
-        .row{
-            .titulo-parrafo1{
+        .row {
+            .titulo-parrafo1 {
                 color: nth($colores, 1);
                 font-size: map-get($map: $fsize, $key: 2);
                 text-align: center;
@@ -21,23 +21,26 @@ main{
         }
     }
 
-    .seccion3-sobrenosotros{
-        h2{
+    .seccion3-sobrenosotros {
+        h2 {
             text-align: center;
             font-size: map-get($map: $fsize, $key: 1);
             padding-bottom: 2rem;
         }
-        .row{
+
+        .row {
             width: 88%;
-            .col-lg-3{
+
+            .col-lg-3 {
                 .card {
                     background-color: nth($colores, 2);
                     border: none;
 
-                    .card-body{
+                    .card-body {
                         h3 {
                             text-align: center;
                         }
+
                         p {
                             @extend %fuente-parrafo;
                             font-size: map-get($map: $fsize, $key: 3);

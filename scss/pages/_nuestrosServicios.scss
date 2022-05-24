@@ -10,6 +10,7 @@ main {
                 div {
                     margin-bottom: 3rem;
                 }
+
                 p {
                     color: nth($colores, 1);
                     font-size: map-get($map: $fsize, $key: 2);
@@ -34,6 +35,7 @@ main {
                     h3 {
                         text-align: center;
                     }
+
                     p {
                         @extend %fuente-parrafo;
                         font-size: map-get($map: $fsize, $key: 3);

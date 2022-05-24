@@ -1,7 +1,7 @@
 /* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
 
-main{
-    .preguntas{
+main {
+    .preguntas {
         display: flex;
         justify-content: space-around;
         color: nth($colores, 1);
@@ -9,18 +9,18 @@ main{
         @extend %fuente-parrafo;
         list-style-type: none;
 
-        li{
+        li {
             padding-bottom: 2rem;
         }
     }
 
-    .seccion2-contacto{
+    .seccion2-contacto {
         color: nth($colores, 1);
         font-size: map-get($map: $fsize, $key: 3);
         @extend %fuente-parrafo;
         list-style-type: none;
 
-        .formulario{
+        .formulario {
             padding-bottom: 2rem;
         }
     }

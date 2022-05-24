@@ -8,23 +8,23 @@ main {
         }
     }
 
-    .seccion2-portfolio{
+    .seccion2-portfolio {
         color: nth($colores, 1);
         font-size: map-get($map: $fsize, $key: 3);
         @extend %fuente-parrafo;
         padding-bottom: 2rem;
-        
-        .card-portfolio{
+
+        .card-portfolio {
             background-color: nth($colores, 2);
             border: none;
             width: 90%;
             margin-left: 5%;
             padding-bottom: 1rem;
 
-            .row{
-                .col-md-4{
-                    iframe{
-                        height:315px;
+            .row {
+                .col-md-4 {
+                    iframe {
+                        height: 315px;
                     }
                 }
             }

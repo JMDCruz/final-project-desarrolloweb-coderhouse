@@ -2,31 +2,31 @@
 
 /* -------------------------------------------------------- HEADER --------------------------------------------------------*/
 
-header{
-    nav{
-        background-color: nth($colores,3);
+header {
+    nav {
+        background-color: nth($colores, 3);
 
-        .container-fluid{
+        .container-fluid {
 
-            .navbar-brand{
+            .navbar-brand {
                 padding-left: 5rem;
 
-                .logo-nav{
+                .logo-nav {
                     height: 8rem;
-                    
+
                 }
             }
 
-            #navbarDark{
-                
-                .lista-nav{
+            #navbarDark {
+
+                .lista-nav {
                     font-size: 2rem;
                     list-style-type: none;
                     font-family: 'Lato', sans-serif;
                     font-weight: 400;
-                    color: nth($colores,1);
+                    color: nth($colores, 1);
 
-                    .nav-link{
+                    .nav-link {
                         margin-right: 5rem;
                     }
                 }

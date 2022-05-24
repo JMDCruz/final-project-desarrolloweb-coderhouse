@@ -5,13 +5,13 @@
 @import '../scss/base/mapas';
 @import '../scss/base/mixin';
 @import '../scss/base/extends';
-@import '../scss/components/header';
-@import '../scss/components/footer';
+@import '../scss/layout/header';
+@import '../scss/layout/footer';
 
-@import '../scss/components/index';
-@import '../scss/components/nuestrosServicios';
-@import '../scss/components/portfolio';
-@import '../scss/components/sobreNosotros';
-@import '../scss/components/contacto';
+@import '../scss/pages/index';
+@import '../scss/pages/nuestrosServicios';
+@import '../scss/pages/portfolio';
+@import '../scss/pages/sobreNosotros';
+@import '../scss/pages/contacto';
 
 @import '../scss/base/mediaquery';
