@@ -208,11 +208,11 @@ main .seccion2-portfolio .card-portfolio {
   margin-left: 5%;
   padding-bottom: 1rem;
 }
-main .seccion2-portfolio .card-portfolio .row .col-md-4 {
+main .seccion2-portfolio .card-portfolio .row .col-lg-5 {
   padding: 0;
   aspect-ratio: 16/9;
 }
-main .seccion2-portfolio .card-portfolio .row .col-md-4 iframe {
+main .seccion2-portfolio .card-portfolio .row .col-lg-5 iframe {
   max-width: 100%;
   width: 100%;
   aspect-ratio: 16/9;
