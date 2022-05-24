@@ -13,7 +13,7 @@ main {
 
                 p {
                     color: nth($colores, 1);
-                    font-size: map-get($map: $fsize, $key: 2);
+                    font-size: map-get($map: $fsize-lg, $key: 2);
                     @extend %fuente-parrafo;
                 }
             }
@@ -38,7 +38,7 @@ main {
 
                     p {
                         @extend %fuente-parrafo;
-                        font-size: map-get($map: $fsize, $key: 3);
+                        font-size: map-get($map: $fsize-lg, $key: 3);
                         text-align: center;
                     }
                 }

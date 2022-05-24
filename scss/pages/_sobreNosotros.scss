@@ -14,9 +14,14 @@ main {
         .row {
             .titulo-parrafo1 {
                 color: nth($colores, 1);
-                font-size: map-get($map: $fsize, $key: 2);
+                font-size: map-get($map: $fsize-lg, $key: 2);
                 text-align: center;
                 @extend %fuente-parrafo;
+            }
+            .col-lg-6{
+                img{
+                    width: 75%;
+                }
             }
         }
     }
@@ -24,7 +29,6 @@ main {
     .seccion3-sobrenosotros {
         h2 {
             text-align: center;
-            font-size: map-get($map: $fsize, $key: 1);
             padding-bottom: 2rem;
         }
 
@@ -43,7 +47,7 @@ main {
 
                         p {
                             @extend %fuente-parrafo;
-                            font-size: map-get($map: $fsize, $key: 3);
+                            font-size: map-get($map: $fsize-lg, $key: 3);
                             text-align: center;
                         }
                     }

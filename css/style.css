@@ -65,7 +65,7 @@ h4 {
 /* Mapas */
 /* Mixin */
 /* Extends */
-main .seccion2-contacto, main .preguntas, main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p, main .seccion2-sobrenosotros .row .titulo-parrafo1, main .seccion2-portfolio, main .seccion2-nuestros-servicios .row .card .card-body p, main .seccion1-nuestros-servicios .grid-container .grid p, main .seccion2-index .row .titulo-parrafo1 {
+main .seccion2-contacto, main section .preguntas, main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p, main .seccion2-sobrenosotros .row .titulo-parrafo1, main .seccion2-portfolio, main .seccion2-nuestros-servicios .row .card .card-body p, main .seccion1-nuestros-servicios .grid-container .grid p, main .seccion2-index .row .titulo-parrafo1 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font: weight;
@@ -190,8 +190,14 @@ main .seccion2-portfolio .card-portfolio {
   margin-left: 5%;
   padding-bottom: 1rem;
 }
+main .seccion2-portfolio .card-portfolio .row .col-md-4 {
+  padding: 0;
+  aspect-ratio: 16/9;
+}
 main .seccion2-portfolio .card-portfolio .row .col-md-4 iframe {
-  height: 315px;
+  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 /* -------------------------------------------------------- PORTFOLIO FIN --------------------------------------------------------*/
@@ -209,9 +215,11 @@ main .seccion2-sobrenosotros .row .titulo-parrafo1 {
   font-size: 2.6rem;
   text-align: center;
 }
+main .seccion2-sobrenosotros .row .col-lg-6 img {
+  width: 75%;
+}
 main .seccion3-sobrenosotros h2 {
   text-align: center;
-  font-size: 4rem;
   padding-bottom: 2rem;
 }
 main .seccion3-sobrenosotros .row {
@@ -231,14 +239,14 @@ main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
 
 /* -------------------------------------------------------- SOBRE NOSOTROS FIN --------------------------------------------------------*/
 /* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
-main .preguntas {
+main section .preguntas {
   display: flex;
   justify-content: space-around;
   color: #FFFFFF;
   font-size: 2rem;
   list-style-type: none;
 }
-main .preguntas li {
+main section .preguntas li {
   padding-bottom: 2rem;
 }
 main .seccion2-contacto {
@@ -266,9 +274,6 @@ main .seccion2-contacto .formulario {
     margin: none;
     color: #FFFFFF;
   }
-  main .seccion2-index .row .titulo-parrafo1 h1 {
-    font-size: 2.6rem;
-  }
   main .seccion2-index .row .col-lg-6 .img-lente {
     border: solid 3px white;
     width: 35rem;
@@ -288,7 +293,7 @@ main .seccion2-contacto .formulario {
     margin-bottom: 2.2rem;
   }
   main .seccion1-nuestros-servicios .grid-container .grid p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   main .seccion2-nuestros-servicios {
     padding-bottom: 2rem;
@@ -301,14 +306,49 @@ main .seccion2-contacto .formulario {
     background-color: #284B63;
     border: none;
   }
-  main .seccion2-nuestros-servicios .row .card .card-body h5 {
-    font-size: 1.9rem;
-  }
   main .seccion2-nuestros-servicios .row .card .card-body p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   /* ------------------------ NUESTROS SERVICIOS FIN */
+  /* ------------------------ PORTFOLIO */
+  main section .img-port {
+    width: 94%;
+    margin-left: 3%;
+  }
+  main .seccion2-portfolio {
+    font-size: 1.4rem;
+  }
+
+  /* ------------------------ PORTFOLIO FIN */
+  /* ------------------------ SOBRE NOSOTROS */
+  main section .img-port {
+    width: 94%;
+    margin-left: 3%;
+  }
+  main .seccion2-sobrenosotros .row .titulo-parrafo1 {
+    font-size: 1.8rem;
+  }
+  main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
+    font-size: 1.8rem;
+  }
+
+  /* ------------------------ SOBRE NOSOTROS FIN */
+  /* ------------------------ CONTACTO */
+  main section .preguntas {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+  }
+  main .seccion2-contacto {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+  }
+  main .seccion2-contacto .formulario {
+    width: 90%;
+  }
+
+  /* ------------------------ CONTACTO FIN */
   /* ------------------------ FOOTER */
   footer .iconos-redes {
     width: 20rem;
@@ -316,11 +356,26 @@ main .seccion2-contacto .formulario {
   footer .iconos-redes img {
     width: 2.8rem;
   }
-  footer .iconos-redes h4 {
+
+  /* ------------------------ FOOTER FIN */
+  /* ------------------------ HEADINGS FIN */
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
     font-size: 1rem;
   }
 
-  /* ------------------------ FOOTER FIN */
+  /* ------------------------ HEADINGS FIN */
 }
 /* ------------------------------- Tablet -------------------------------*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -330,9 +385,6 @@ main .seccion2-contacto .formulario {
   }
   main .seccion2-index .row .titulo-parrafo1 {
     font-size: 2.4rem;
-  }
-  main .seccion2-index .row .titulo-parrafo1 h1 {
-    font-size: 4rem;
   }
   main .seccion2-index .row .col-lg-6 .img-lente {
     border: solid 4px white;
@@ -358,11 +410,8 @@ main .seccion2-contacto .formulario {
     background-color: #284B63;
     border: none;
   }
-  main .seccion2-nuestros-servicios .row .card .card-body h5 {
-    font-size: 2rem;
-  }
   main .seccion2-nuestros-servicios .row .card .card-body p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }
 /* ------------------------------- Desktop -------------------------------*/

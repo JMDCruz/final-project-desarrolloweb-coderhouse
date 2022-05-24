@@ -10,7 +10,7 @@ main {
 
     .seccion2-portfolio {
         color: nth($colores, 1);
-        font-size: map-get($map: $fsize, $key: 3);
+        font-size: map-get($map: $fsize-lg, $key: 3);
         @extend %fuente-parrafo;
         padding-bottom: 2rem;
 
@@ -20,11 +20,14 @@ main {
             width: 90%;
             margin-left: 5%;
             padding-bottom: 1rem;
-
             .row {
                 .col-md-4 {
+                    padding: 0;
+                    aspect-ratio: 16 / 9;
                     iframe {
-                        height: 315px;
+                        max-width: 100%;
+                        width: 100%;
+                        aspect-ratio: 16 / 9;
                     }
                 }
             }

@@ -20,13 +20,9 @@
             .row {
 
                 .titulo-parrafo1 {
-                    font-size: 1.8rem;
+                    font-size: map-get($map: $fsize-sm, $key: 2);
                     margin: none;
                     color: #FFFFFF;
-
-                    h1 {
-                        font-size: 2.6rem;
-                    }
                 }
 
                 .col-lg-6 {
@@ -60,7 +56,7 @@
                     }
 
                     p {
-                        font-size: 1.7rem;
+                        font-size: map-get($map: $fsize-sm, $key: 2);
                     }
 
                 }
@@ -79,12 +75,8 @@
                     border: none;
 
                     .card-body {
-                        h5 {
-                            font-size: 1.9rem;
-                        }
-
                         p {
-                            font-size: 1.5rem;
+                            font-size: map-get($map: $fsize-sm, $key: 3);
                         }
                     }
                 }
@@ -93,6 +85,76 @@
     }
 
     /* ------------------------ NUESTROS SERVICIOS FIN */
+
+    /* ------------------------ PORTFOLIO */
+    main {
+        section {
+            .img-port {
+                @include portadas (94%, 3%);
+            }
+        }
+    
+        .seccion2-portfolio {
+            font-size: map-get($map: $fsize-sm, $key: 3);
+        }
+    }
+
+    /* ------------------------ PORTFOLIO FIN */
+
+    /* ------------------------ SOBRE NOSOTROS */
+
+    main {
+        section {
+            .img-port {
+                @include portadas (94%, 3%);
+            }
+        }
+
+        .seccion2-sobrenosotros {
+            .row {
+                .titulo-parrafo1 {
+                    font-size: map-get($map: $fsize-sm, $key: 2);
+                }
+            }
+        }
+
+        .seccion3-sobrenosotros {
+            .row {
+                .col-lg-3 {
+                    .card {    
+                        .card-body {
+                            p {
+                                font-size: map-get($map: $fsize-sm, $key: 2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ------------------------ SOBRE NOSOTROS FIN */
+
+    /* ------------------------ CONTACTO */
+    main {
+        section {
+            .preguntas {
+                display: flex;
+                flex-direction: column;
+                font-size: map-get($map: $fsize-sm, $key: 2);
+            }
+        }
+    
+        .seccion2-contacto {
+            color: nth($colores, 1);
+            font-size: map-get($map: $fsize-sm, $key: 2);
+
+            .formulario{
+                width: 90%;
+            }
+        }
+    }
+    /* ------------------------ CONTACTO FIN */
 
     /* ------------------------ FOOTER */
 
@@ -103,16 +165,28 @@
             img {
                 width: 2.8rem;
             }
-
-            h4 {
-                font-size: 1rem;
-            }
         }
     }
 
     /* ------------------------ FOOTER FIN */
 
+    /* ------------------------ HEADINGS FIN */
+    h1 {
+        font-size: 3.6rem;
+    }
 
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    
+    h4 {
+        font-size: 1rem;
+    }
+    /* ------------------------ HEADINGS FIN */
 
 }
 
@@ -132,10 +206,6 @@
 
                 .titulo-parrafo1 {
                     font-size: 2.4rem;
-
-                    h1 {
-                        font-size: 4rem;
-                    }
                 }
 
                 .col-lg-6 {
@@ -180,12 +250,8 @@
                     border: none;
 
                     .card-body {
-                        h5 {
-                            font-size: 2rem;
-                        }
-
                         p {
-                            font-size: 1.6rem;
+                            font-size: map-get($map: $fsize-sm, $key: 2);
                         }
                     }
                 }

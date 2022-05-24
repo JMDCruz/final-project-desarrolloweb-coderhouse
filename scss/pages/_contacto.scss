@@ -1,22 +1,24 @@
 /* -------------------------------------------------------- CONTACTO --------------------------------------------------------*/
 
 main {
-    .preguntas {
-        display: flex;
-        justify-content: space-around;
-        color: nth($colores, 1);
-        font-size: map-get($map: $fsize, $key: 3);
-        @extend %fuente-parrafo;
-        list-style-type: none;
+    section {
+        .preguntas {
+            display: flex;
+            justify-content: space-around;
+            color: nth($colores, 1);
+            font-size: map-get($map: $fsize-lg, $key: 3);
+            @extend %fuente-parrafo;
+            list-style-type: none;
 
-        li {
-            padding-bottom: 2rem;
+            li {
+                padding-bottom: 2rem;
+            }
         }
     }
 
     .seccion2-contacto {
         color: nth($colores, 1);
-        font-size: map-get($map: $fsize, $key: 3);
+        font-size: map-get($map: $fsize-lg, $key: 3);
         @extend %fuente-parrafo;
         list-style-type: none;
 

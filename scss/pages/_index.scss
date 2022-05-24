@@ -19,7 +19,7 @@ main {
 
             .titulo-parrafo1 {
                 color: nth($colores, 1);
-                font-size: map-get($map: $fsize, $key: 2);
+                font-size: map-get($map: $fsize-lg, $key: 2);
                 text-align: center;
                 @extend %fuente-parrafo;
             }
