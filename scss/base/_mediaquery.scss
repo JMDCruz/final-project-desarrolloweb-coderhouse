@@ -33,6 +33,12 @@
                 }
             }
         }
+
+        .seccion3-index{    
+            .row {
+                width: 90%;
+            }
+        }
     }
 
     /* ------------------------ INDEX FIN */
@@ -151,6 +157,11 @@
 
             .formulario{
                 width: 90%;
+                div{
+                    .form-control{
+                        font-size: map-get($map: $fsize-sm, $key: 3);
+                    }
+                }
             }
         }
     }

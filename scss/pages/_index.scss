@@ -33,6 +33,23 @@ main {
             }
         }
     }
+
+    .seccion3-index{
+        padding-bottom: 2rem;
+
+        .row {
+            width: 70%;
+
+            .card {
+                background-color: nth($colores, 2);
+                border: none;
+                .card-body {
+                    background-color: nth($colores, 3);
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 /* -------------------------------------------------------- INDEX FIN --------------------------------------------------------*/

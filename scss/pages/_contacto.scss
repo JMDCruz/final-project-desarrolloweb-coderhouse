@@ -6,7 +6,7 @@ main {
             display: flex;
             justify-content: space-around;
             color: nth($colores, 1);
-            font-size: map-get($map: $fsize-lg, $key: 3);
+            font-size: map-get($map: $fsize-lg, $key: 2);
             @extend %fuente-parrafo;
             list-style-type: none;
 
@@ -24,6 +24,13 @@ main {
 
         .formulario {
             padding-bottom: 2rem;
+            max-width: 40rem;
+
+            div{
+                .form-control{
+                    font-size: map-get($map: $fsize-lg, $key: 4);
+                }
+            }
         }
     }
 }

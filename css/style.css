@@ -138,6 +138,20 @@ main .seccion2-index .row .col-lg-6 .img-lente {
   border: solid 5px #FFFFFF;
   width: 50rem;
 }
+main .seccion3-index {
+  padding-bottom: 2rem;
+}
+main .seccion3-index .row {
+  width: 70%;
+}
+main .seccion3-index .row .card {
+  background-color: #284B63;
+  border: none;
+}
+main .seccion3-index .row .card .card-body {
+  background-color: #353535;
+  width: 100%;
+}
 
 /* -------------------------------------------------------- INDEX FIN --------------------------------------------------------*/
 /* -------------------------------------------------------- NUESTROS SERVICIOS --------------------------------------------------------*/
@@ -243,7 +257,7 @@ main section .preguntas {
   display: flex;
   justify-content: space-around;
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 2.6rem;
   list-style-type: none;
 }
 main section .preguntas li {
@@ -256,6 +270,10 @@ main .seccion2-contacto {
 }
 main .seccion2-contacto .formulario {
   padding-bottom: 2rem;
+  max-width: 40rem;
+}
+main .seccion2-contacto .formulario div .form-control {
+  font-size: 1.6rem;
 }
 
 /* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/
@@ -277,6 +295,9 @@ main .seccion2-contacto .formulario {
   main .seccion2-index .row .col-lg-6 .img-lente {
     border: solid 3px white;
     width: 35rem;
+  }
+  main .seccion3-index .row {
+    width: 90%;
   }
 
   /* ------------------------ INDEX FIN */
@@ -346,6 +367,9 @@ main .seccion2-contacto .formulario {
   }
   main .seccion2-contacto .formulario {
     width: 90%;
+  }
+  main .seccion2-contacto .formulario div .form-control {
+    font-size: 1.4rem;
   }
 
   /* ------------------------ CONTACTO FIN */
