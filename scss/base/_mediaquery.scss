@@ -21,8 +21,6 @@
 
                 .titulo-parrafo1 {
                     font-size: map-get($map: $fsize-sm, $key: 2);
-                    margin: none;
-                    color: #FFFFFF;
                 }
 
                 .col-lg-6 {
@@ -47,15 +45,7 @@
 
     main {
         .seccion1-nuestros-servicios {
-            h1 {
-                font-size: 3.5rem;
-                padding-bottom: 1rem;
-            }
-
             .grid-container {
-                margin-left: 2%;
-                width: 96%;
-
                 .grid {
                     div {
                         margin-bottom: 2.2rem;
@@ -70,16 +60,8 @@
         }
 
         .seccion2-nuestros-servicios {
-            padding-bottom: 2rem;
-
             .row {
-                margin-left: 1rem;
-                margin-right: 1rem;
-
                 .card {
-                    background-color: #284B63;
-                    border: none;
-
                     .card-body {
                         p {
                             font-size: map-get($map: $fsize-sm, $key: 3);
@@ -152,7 +134,6 @@
         }
     
         .seccion2-contacto {
-            color: nth($colores, 1);
             font-size: map-get($map: $fsize-sm, $key: 2);
 
             .formulario{
@@ -216,7 +197,7 @@
             .row {
 
                 .titulo-parrafo1 {
-                    font-size: 2.4rem;
+                    font-size: map-get($map: $fsize-md, $key: 2);
                 }
 
                 .col-lg-6 {
@@ -225,6 +206,12 @@
                         width: 40rem;
                     }
                 }
+            }
+        }
+
+        .seccion3-index{    
+            .row {
+                width: 90%;
             }
         }
     }
@@ -236,39 +223,125 @@
     main {
         .seccion1-nuestros-servicios {
             .grid-container {
-
                 .grid {
                     div {
                         margin-bottom: 2.6rem;
                     }
 
                     p {
-                        font-size: 2.1rem;
+                        font-size: map-get($map: $fsize-md, $key: 2);
                     }
                 }
             }
         }
 
         .seccion2-nuestros-servicios {
-            padding-bottom: 2rem;
-
             .row {
-                margin-left: 1rem;
-                margin-right: 1rem;
-
                 .card {
-                    background-color: #284B63;
-                    border: none;
-
                     .card-body {
                         p {
-                            font-size: map-get($map: $fsize-sm, $key: 2);
+                            font-size: map-get($map: $fsize-md, $key: 2);
                         }
                     }
                 }
             }
         }
     }
+
+    /* ------------------------ NUESTROS SERVICIOS FIN*/
+
+    /* ------------------------ PORTFOLIO */
+    main {
+        section {
+            .img-port {
+                @include portadas (94%, 3%);
+            }
+        }
+    
+        .seccion2-portfolio {
+            font-size: map-get($map: $fsize-md, $key: 3);
+        }
+    }
+
+    /* ------------------------ PORTFOLIO FIN */
+
+    /* ------------------------ SOBRE NOSOTROS */
+
+    main {
+        section {
+            .img-port {
+                @include portadas (94%, 3%);
+            }
+        }
+
+        .seccion2-sobrenosotros {
+            .row {
+                .titulo-parrafo1 {
+                    font-size: map-get($map: $fsize-md, $key: 2);
+                }
+            }
+        }
+
+        .seccion3-sobrenosotros {
+            .row {
+                .col-lg-3 {
+                    .card {    
+                        .card-body {
+                            p {
+                                font-size: map-get($map: $fsize-md, $key: 2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* ------------------------ SOBRE NOSOTROS FIN */
+
+    /* ------------------------ CONTACTO */
+    main {
+        section {
+            .preguntas {
+                display: flex;
+                flex-direction: column;
+                font-size: map-get($map: $fsize-md, $key: 2);
+            }
+        }
+    
+        .seccion2-contacto {
+            font-size: map-get($map: $fsize-md, $key: 2);
+
+            .formulario{
+                width: 90%;
+                div{
+                    .form-control{
+                        font-size: map-get($map: $fsize-md, $key: 3);
+                    }
+                }
+            }
+        }
+    }
+    /* ------------------------ CONTACTO FIN */
+
+    /* ------------------------ HEADINGS FIN */
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.2rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+    }
+    
+    h4 {
+        font-size: 1.1rem;
+    }
+    /* ------------------------ HEADINGS FIN */
+
 }
 
 /* ------------------------------- Desktop -------------------------------*/

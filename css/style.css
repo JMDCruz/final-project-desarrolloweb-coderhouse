@@ -296,8 +296,6 @@ main .seccion2-contacto .formulario div .form-control {
   }
   main .seccion2-index .row .titulo-parrafo1 {
     font-size: 1.8rem;
-    margin: none;
-    color: #FFFFFF;
   }
   main .seccion2-index .row .col-lg-6 .img-lente {
     border: solid 3px white;
@@ -309,30 +307,11 @@ main .seccion2-contacto .formulario div .form-control {
 
   /* ------------------------ INDEX FIN */
   /* ------------------------ NUESTROS SERVICIOS */
-  main .seccion1-nuestros-servicios h1 {
-    font-size: 3.5rem;
-    padding-bottom: 1rem;
-  }
-  main .seccion1-nuestros-servicios .grid-container {
-    margin-left: 2%;
-    width: 96%;
-  }
   main .seccion1-nuestros-servicios .grid-container .grid div {
     margin-bottom: 2.2rem;
   }
   main .seccion1-nuestros-servicios .grid-container .grid p {
     font-size: 1.8rem;
-  }
-  main .seccion2-nuestros-servicios {
-    padding-bottom: 2rem;
-  }
-  main .seccion2-nuestros-servicios .row {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  main .seccion2-nuestros-servicios .row .card {
-    background-color: #284B63;
-    border: none;
   }
   main .seccion2-nuestros-servicios .row .card .card-body p {
     font-size: 1.4rem;
@@ -369,7 +348,6 @@ main .seccion2-contacto .formulario div .form-control {
     font-size: 1.8rem;
   }
   main .seccion2-contacto {
-    color: #FFFFFF;
     font-size: 1.8rem;
   }
   main .seccion2-contacto .formulario {
@@ -415,11 +393,14 @@ main .seccion2-contacto .formulario div .form-control {
     display: none;
   }
   main .seccion2-index .row .titulo-parrafo1 {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
   }
   main .seccion2-index .row .col-lg-6 .img-lente {
     border: solid 4px white;
     width: 40rem;
+  }
+  main .seccion3-index .row {
+    width: 90%;
   }
 
   /* ------------------------ INDEX FIN */
@@ -430,20 +411,69 @@ main .seccion2-contacto .formulario div .form-control {
   main .seccion1-nuestros-servicios .grid-container .grid p {
     font-size: 2.1rem;
   }
-  main .seccion2-nuestros-servicios {
-    padding-bottom: 2rem;
-  }
-  main .seccion2-nuestros-servicios .row {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  main .seccion2-nuestros-servicios .row .card {
-    background-color: #284B63;
-    border: none;
-  }
   main .seccion2-nuestros-servicios .row .card .card-body p {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
+
+  /* ------------------------ NUESTROS SERVICIOS FIN*/
+  /* ------------------------ PORTFOLIO */
+  main section .img-port {
+    width: 94%;
+    margin-left: 3%;
+  }
+  main .seccion2-portfolio {
+    font-size: 1.7rem;
+  }
+
+  /* ------------------------ PORTFOLIO FIN */
+  /* ------------------------ SOBRE NOSOTROS */
+  main section .img-port {
+    width: 94%;
+    margin-left: 3%;
+  }
+  main .seccion2-sobrenosotros .row .titulo-parrafo1 {
+    font-size: 2.1rem;
+  }
+  main .seccion3-sobrenosotros .row .col-lg-3 .card .card-body p {
+    font-size: 2.1rem;
+  }
+
+  /* ------------------------ SOBRE NOSOTROS FIN */
+  /* ------------------------ CONTACTO */
+  main section .preguntas {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.1rem;
+  }
+  main .seccion2-contacto {
+    font-size: 2.1rem;
+  }
+  main .seccion2-contacto .formulario {
+    width: 90%;
+  }
+  main .seccion2-contacto .formulario div .form-control {
+    font-size: 1.7rem;
+  }
+
+  /* ------------------------ CONTACTO FIN */
+  /* ------------------------ HEADINGS FIN */
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  /* ------------------------ HEADINGS FIN */
 }
 /* ------------------------------- Desktop -------------------------------*/
 @media only screen and (min-width: 992px) {
