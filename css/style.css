@@ -282,6 +282,9 @@ main .seccion2-contacto .formulario {
 main .seccion2-contacto .formulario div .form-control {
   font-size: 1.6rem;
 }
+main .seccion2-contacto .formulario button {
+  font-size: 1.6rem;
+}
 
 /* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/
 /* -------------------------------------------------------- MEDIA QUERIE --------------------------------------------------------*/
@@ -354,6 +357,9 @@ main .seccion2-contacto .formulario div .form-control {
     width: 90%;
   }
   main .seccion2-contacto .formulario div .form-control {
+    font-size: 1.4rem;
+  }
+  main .seccion2-contacto .formulario button {
     font-size: 1.4rem;
   }
 
@@ -452,6 +458,9 @@ main .seccion2-contacto .formulario div .form-control {
     width: 90%;
   }
   main .seccion2-contacto .formulario div .form-control {
+    font-size: 1.8rem;
+  }
+  main .seccion2-contacto .formulario button {
     font-size: 1.8rem;
   }
 

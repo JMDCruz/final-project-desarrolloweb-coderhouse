@@ -143,6 +143,9 @@
                         font-size: map-get($map: $fsize-sm, $key: 3);
                     }
                 }
+                button{
+                    font-size: map-get($map: $fsize-sm, $key: 3);
+                }
             }
         }
     }
@@ -318,6 +321,9 @@
                     .form-control{
                         font-size: map-get($map: $fsize-md, $key: 3);
                     }
+                }
+                button{
+                    font-size: map-get($map: $fsize-md, $key: 3);
                 }
             }
         }
