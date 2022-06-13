@@ -284,6 +284,8 @@ main .seccion2-contacto .formulario div .form-control {
 }
 main .seccion2-contacto .formulario button {
   font-size: 1.6rem;
+  background-color: #353535;
+  border: solid 1px #FFFFFF;
 }
 
 /* -------------------------------------------------------- CONTACTO FIN --------------------------------------------------------*/
